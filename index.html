@@ -62,11 +62,33 @@
                             <div class="swiper-slide"><img src="./assets/Guia Front-end.svg" alt="Guia front end"></div>
                             <div class="swiper-slide"><img src="./assets/Portugol.svg" alt="Livro sobre portugol"></div>
                             <div class="swiper-slide"><img src="./assets/Acessibilidade.svg" alt="Livro sobre acessibilidade"></div>
-                            <div class="swiper-slide"></div>
                         </div>
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
+                    </div>
+                    <div class="card">
+                        <!--primeira linha-->
+                        <div class="card__descricao">
+                            <!--Primeira coluna-->
+                            <div class="descricao">
+                                <h3 class="descricao__titulo">Talvez você tambem se interesse por ...</h3>
+                                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do google.</p>
+                            </div>
+                            <!--segunda coluna-->
+                            <img src="./assets/Angular.svg" alt="logo angular">
+                        </div>
+                        <!--segundan linha-->
+                        <div class="card__botoes">
+                            <!--primeira coluna-->
+                            <ul class="botoes">
+                                <li class="botoes__item"><img src="./assets/Favoritos.svg" alt="Favoritar livro"></li>
+                                <li class="botoes__item"><img src="./assets/Compras.svg" alt="Adicionar a lista de compras"></li>
+                            </ul>
+                            <!--segunda coluna-->
+                            <a href="#" class="botoes__ancora">Saiba mais</a>
+                        </div>
                     </div>
             </section>
         </main>
@@ -76,7 +98,7 @@
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
-                el: '.swiper-pagination',
+                el: '.swliper-pagination',
                 type: 'bullets',
             },
         });
