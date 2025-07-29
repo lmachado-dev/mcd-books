@@ -1,7 +1,6 @@
 .contato {
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
     background-color: var(--branco);
     padding: 1em;
 }
@@ -54,5 +53,11 @@
     }
     .contato__email {
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .contato{
+        padding: 3em 20vw;
     }
 }
